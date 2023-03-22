@@ -4,14 +4,20 @@
 ||aan.amazon.com^
 ||aax.amazon-adsystem.com^
 ||amazon-adsystem.com^
+|| analyticsengine.s3.amazonaws.com^
+|| analytics.s3.amazonaws.com^
+|| advice-ads.s3.amazonaws.com^
+|| advertising-api-eu.amazon.com^
 ||assoc-amazon.com^
 ||c.amazon-adsystem.com^
 ||mads.amazon-adsystem.com^
 
 # Apple
+||api-adservices.apple.com^
 ||books-analytics-events.apple.com^
 ||books-analytics-events.news.apple-dns.net^
 ||dzc-metrics.mzstatic.com^
+||iadsdk.apple.com^
 ||metrics.apple.com^
 ||metrics.icloud.com^
 ||metrics.mzstatic.com^
@@ -32,6 +38,7 @@
 # Facebook
 ||ads.facebook.com^
 ||adtools.facebook.com^
+||an.facebook.com^
 ||analytics.facebook.com^
 ||pixel.facebook.com^
 
@@ -45,6 +52,7 @@
 # Google
 ||ads.google.com^
 ||adservice.google.com^
+||app-measurement.com^
 ||google-analytics.com^
 ||pagead2.googlesyndication.com^
 ||pagead2.googleadservices.com^
@@ -54,6 +62,7 @@
 ||static.hotjar.com^
 
 # Huawei
+||grs.hicloud.com^
 ||logbak.hicloud.com^
 ||logservice.hicloud.com^
 ||logservice1.hicloud.com^
@@ -108,7 +117,10 @@
 
 # Realme
 ||ata-ads.realmemobile.com^
+||bdapi-ads.realmemobile.com^
 ||bdapi-in-ads.realmemobile.com^
+||iot-eu-logser.realme.com^
+||iot-logser.realme.com^
 
 # Reddit
 ||ads.reddit.com^
@@ -135,12 +147,23 @@
 
 # TikTok
 ||ads.tiktok.com^
+||ads-api.tiktok.com^
+||ads-sg.tiktok.com^
 ||analytics.tiktok.comet^
+||analytics-sg.tiktok.com^
+||business-api.tiktok.com^
+||log.byteoversea.com^
 
 # Twitter
 ||ads-twitter.com^
 ||analytics.twitter.com^
 ||static.ads-twitter.com^
+
+# Unity
+||auction.unityads.unity3d.com^
+||webview.unityads.unity3d.com^
+||config.unityads.unity3d.com^
+||adserver.unityads.unity3d.com^
 
 # Wordpress
 ||stats.wp.com^
@@ -197,6 +220,8 @@
 ||pclick.yahoo.com^
 ||sea.advertising.yahoo.com^
 ||sp.analytics.yahoo.com^
+||udc.yahoo.com^
+||udcm.yahoo.com^
 ||uk.advertising.yahoo.com^
 ||us.adserver.yahoo.com^
 ||ush.adspecs.yahoo.com^
@@ -208,7 +233,9 @@
 ||30488.redirect.appmetrica.yandex.com^
 ||4.redirect.appmetrica.yandex.com^
 ||adfox.yandex.ru^
+||adfstat.yandex.ru^
 ||adsdk.yandex.ru^
+||advertising.yandex.ru^
 ||an.yandex.ru^
 ||analytics.mobile.yandex.net^
 ||appmetrica.yandex.com^
