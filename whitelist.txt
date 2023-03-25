@@ -2,6 +2,8 @@
 # Adobe
 @@||fpdownload.adobe.com^$important
 @@||entitlement.auth.adobe.com^$important
+@@||activate.adobe.com^$important
+@@||lm.licenses.adobe.com^$important
 
 # Akamai Technologies
 @@||akadns.net^$important
