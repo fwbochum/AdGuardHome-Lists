@@ -93,6 +93,9 @@
 # Avantgate (Used to perform online payments.)
 @@||secure.avangate.com^$important
 
+# AVM
+@@||myfritz.net^$important
+
 # Bauhaus
 @@||media.bahag.cloud^$important
 
@@ -275,6 +278,11 @@
 # GTA Online
 @@||prod.telemetry.ros.rockstargames.com^$important
 
+# Home Assistant
+@@||checkonline.home-assistant.io^$important
+@@||phoscon.de^$important
+@@||www.dresden-elektronik.de^$important
+
 # Home Connect (Bosch / Siemens)
 @@||bshg.sc.omtrdc.net^$important
 @@||device-api.asnapieu.com^$important
@@ -429,6 +437,10 @@
 
 # NPR
 @@||npr-news.streaming.adswizz.com^$important
+
+# NTP-Server
+@@||fr.pool.ntp.org^$important
+@@||uk.pool.ntp.org^$important
 
 # Nvidia
 @@||ota-downloads.nvidia.com^$important
