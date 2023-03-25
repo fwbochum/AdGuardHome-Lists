@@ -1,4 +1,7 @@
 ! Whitelist - Domains
+# Adobe
+@@||fpdownload.adobe.com^$important
+@@||entitlement.auth.adobe.com^$important
 
 # Akamai Technologies
 @@||akadns.net^$important
@@ -14,6 +17,7 @@
 @@||widget-cdn.rpxnow.com^$important
 
 # Aliexpress.com
+@@||ae01.alicdn.com^$important
 @@||campaign.aliexpress.com^$important
 @@||login.aliexpress.com^$important
 @@||sale.aliexpress.com^$important
@@ -47,6 +51,8 @@
 @@||atv-ps.amazon.com^$important
 @@||cloudfront.net^$important
 @@||d25xi40x97liuc.cloudfront.net^$important
+@@||d2c8v52ll5s99u.cloudfront.net^$important
+@@||d2gatte9o95jao.cloudfront.net^$important
 @@||dcape-na.amazon.com^$important
 @@||device-messaging-na.amazon.com^$important
 @@||device-metrics-us-2.amazon.com^$important
@@ -60,6 +66,7 @@
 @@||kindle-time.amazon.com^$important
 @@||media-amazon.com^$important
 @@||primevideo.com^$important
+@@||s3.amazonaws.com^$important
 
 # Apple
 @@||apple-dns.net^$important
@@ -74,13 +81,34 @@
 @@||init-p01md-lb.push-apple.com.akadns.net^$important
 @@||iphone-ld.origin-apple.com.akadns.net^$important
 @@||itunes.com^$important
+@@||itunes.apple.com^$important
 @@||mzstatic.com^$important
 @@||np-edge-cdn.itunes-apple.com.akadns.net^$important
+@@||ocsp.apple.com^$important
 @@||play.itunes.apple.com.edgesuite.net^$important
 @@||uts-api-cdn.itunes-apple.com.akadns.net^$important
 
+# Avantgate (Used to perform online payments.)
+@@||secure.avangate.com^$important
+
 # Bauhaus
 @@||media.bahag.cloud^$important
+
+# Bild.de Adblock-Detektor
+@@||www.asadcdn.com^$important
+@@||code.bildstatic.de^$important
+@@||de.ioam.de^$important
+@@||json.bild.de^$important
+@@||script.ioam.de^$important
+@@||tags.tiqcdn.com^$important
+
+# Brightcove (Video delivery systems, popular in entertainment and news sites.)
+@@||brightcove.net^$important
+@@||edge.api.brightcove.com^$important
+@@||secure.brightcove.com^$important
+
+# CBS
+@@||om.cbsi.com^$important
 
 # China-Gadgets
 @@||china-gadgets.de^$important
@@ -89,11 +117,24 @@
 @@||cdn.cloudflare.net^$important
 @@||cdnjs.cloudflare.com^$important
 
+# Cloudinary (Cloudinary provides a cloud-based image and video management services. It enables users to upload, store, manage, manipulate, and deliver images and video for websites and apps.)
+@@||res.cloudinary.com^$important
+
+# Coinbase
+@@||coinbase.com^$important
+
 # Congstar
 @@||app.congstar.de^$important
 
 # Corona Warn App
 @@||svc90.main.px.t-online.de^$important
+
+# Dataplicity (Used to remotely control your Raspberry-Pi.)
+@@||dataplicity.com^$important
+@@||www.dataplicity.com^$important
+
+# Debian
+@@||www.debian.org^$important
 
 # Deskline
 @@||resc.deskline.net^$important
@@ -119,10 +160,26 @@
 @@||disneyplus.com.ssl.sc.omtrdc.net^$important
 @@||disneyplus.com^$important
 @@||dssott.com^$important
+@@||livepassdl.conviva.com^$important
+@@||pings.conviva.com^$important
 @@||vod-l3c-eu-north-2.media.dssott.com.c.footprint.net^$important
+@@||zee.cws.conviva.com^$important
 
 # DPD
 @@||tracking.dpd.de^$important
+
+# Drift (Live chat platform for websites to chat with the website owner. Blocking this domain will block chat widget.)
+@@||drift.com^$important
+@@||driftt.com^$important
+
+# Dropbox
+@@||dl.dropbox.com^$important
+@@||dl.dropboxusercontent.com^$important
+@@||ns1.dropbox.com^$important
+@@||ns2.dropbox.com^$important
+
+# Embedly (Embedly is used to embed videos, images and rich media from 300+ providers with just the URL.)
+@@||cdn.embedly.com^$important
 
 # E.ON
 @@||eon.de^$important
@@ -149,6 +206,9 @@
 @@||scontent-lhr3-1.xx.fbcdn.net^$important
 @@||star.c10r.facebook.com^$important
 
+# Frag Team Clean
+@@||www.frag-team-clean.de^$important
+
 # Gardena
 @@||gardena.com^$important
 
@@ -165,13 +225,17 @@
 # Gleam.io
 @@||gleam.io^$important
 
+# GoDaddy
+@@||imagesak.secureserver.net^$important
+
 # Google
 @@||0.client-channel.google.com^$important
-@@||2.android.pool.ntp.org^$important
 @@||accounts.google.com^$important
 @@||analytics.google.com^$important
 @@||android.clients.google.com^$important
+@@||appsbackup-pa.clients6.google.com^$important
 @@||appsbackup-pa.googleapis.com^$important
+@@||appspot-preview.l.google.com^$important
 @@||clients1.google.com^$important
 @@||clients2.google.com^$important
 @@||clients3.google.com^$important
@@ -181,7 +245,6 @@
 @@||clientservices.googleapis.com^$important
 @@||cloudconfig.googleapis.com^$important
 @@||cse.google.com^$important
-@@||cse.google.com^$important
 @@||fonts.googleapis.com^$important
 @@||fonts.gstatic.com^$important
 @@||fundingchoicesmessages.google.com^$important
@@ -190,6 +253,9 @@
 @@||googleapis.com^$important
 @@||gstatic.com^$important
 @@||id.google.com^$important
+@@||i.ytimg.com^$important
+@@||i1.ytimg.com^$important
+@@||instantmessaging-pa.googleapis.com^$important
 @@||manifest.googlevideo.com^$important
 @@||myaccount.google.com^$important
 @@||photos.googleapis.com^$important
@@ -203,6 +269,9 @@
 
 # Gravatar
 @@||gravatar.com^$important
+
+# GTA Online
+@@||prod.telemetry.ros.rockstargames.com^$important
 
 # Home Connect (Bosch / Siemens)
 @@||bshg.sc.omtrdc.net^$important
@@ -218,15 +287,40 @@
 @@||dnkeeper.platform.dbankcloud.cn^$important
 @@||store-dre.hispace.dbankcloud.com^$important
 
+# Hulu
+@@||api.rlje.net^$important
+
+# Idealo
+@@||www.idealo.de^$important
+
+# (Image placeholders often used during web page loading.)
+@@||imgix.net^$important
+
 # Instagram
 @@||cdninstagram.com^$important
 @@||instagram.c10r.facebook.com^$important
 @@||instagram.com^$important
 
+# Intercom (Live chat platform for websites to chat with the website owner. Blocking this domain will block chat widget.)
+@@||intercom.io^$important
+
+# ipify
+@@||api.ipify.org^$important
+
+#jQuery (jQuery is a JavaScript library. Also used to deliver the files over CDN.)
+@@||jquery.com^$important
+
+#jsDelivr ( jsDelivr is a free public CDN for open-source projects. It can serve web files directly from the npm registry and GitHub repositories without any configuration.)
+@@||jsdelivr.net^$important
+
 # KODi
 @@||kodi.tv^$important
 @@||themoviedb.com^$important
 @@||thetvdb.com^$important
+
+# last.fm
+@@||lastfm-img2.akamaized.net^$important
+@@||ws.audioscrobbler.com^$important
 
 # Lets Encrypt
 @@||letsencrypt.org^$important
@@ -234,6 +328,27 @@
 # LinkedIn
 @@||media-exp1.licdn.com^$important
 @@||static-exp1.licdn.com^$important
+
+# Link Shortener
+@@||www.bit.ly^$important
+@@||bit.ly^$important
+@@||ow.ly^$important
+@@||tinyurl.com^$important
+
+# Luftfahrtbundesamt
+@@||exam.lba-openuav.de^$important
+
+# Malwarebytes
+@@||keystone.mwbsys.com^$important
+
+# Marketwatch
+@@||s.marketwatch.com^$important
+
+#  (Metadata for movies.)
+@@||themoviedb.com^$important
+
+# (Metadata for TV series.)
+@@||thetvdb.com^$important
 
 # Microsoft
 @@||1drv.com^$important
@@ -250,18 +365,22 @@
 @@||device.auth.xboxlive.com^$important
 @@||displaycatalog.mp.microsoft.com^$important
 @@||dl.delivery.mp.microsoft.com^$important
+@@||dns.msftncsi.com^$important
 @@||download.visualstudio.microsoft.com^$important
 @@||download.windowsupdate.com^$important
 @@||ecn.dev.virtualearth.net^$important
 @@||eds.xboxlive.com^$important
 @@||emdl.ws.microsoft.com^$important
 @@||geo-prod.do.dsp.mp.microsoft.com^$important
+@@||g.live.com^$important
 @@||help.ui.xboxlive.com^$important
 @@||i.s-microsoft.com^$important
 @@||ic3.events.data.microsoft.com^$important
 @@||install.appcenter.ms^$important
 @@||licensing.xboxlive.com^$important
 @@||live.com^$important
+@@||login.live.com^$important
+@@||login.microsoftonline.com^$important
 @@||microsoftonline.com^$important
 @@||msftncsi.com^$important
 @@||nexusrules.officeapps.live.com^$important
@@ -270,7 +389,12 @@
 @@||office.net^$important
 @@||office365.com^$important
 @@||officeclient.microsoft.com^$important
+@@||onedrive.live.com^$important
+@@||outlook.live.com^$important
+@@||outlook.office365.com^$important
 @@||pricelist.skype.com^$important
+@@||products.office.com^$important
+@@||s.gateway.messenger.live.com^$important
 @@||sharepoint.com^$important
 @@||t0.ssl.ak.dynamic.tiles.virtualearth.net^$important
 @@||t0.ssl.ak.tiles.virtualearth.net^$important
@@ -286,8 +410,31 @@
 @@||xkms.xboxlive.com^$important
 @@||xsts.auth.xboxlive.com^$important
 
+# MyDealz
+@@||www.mydealz.de^$important
+
+# Netflix
+@@||secure.netflix.com^$important
+@@||appboot.netflix.com^$important
+@@||api-global.netflix.com^$important
+
+# No-IP (No-IP offers DNS services, email, network monitoring and SSL certificates.)
+@@||dynupdate.no-ip.com^$important
+@@||no-ip.com^$important
+
+# nmp.js
+@@||registry.npmjs.org^$important
+
+# NPR
+@@||npr-news.streaming.adswizz.com^$important
+
+# Nvidia
+@@||ota-downloads.nvidia.com^$important
+@@||gfwsl.geforce.com^$important
+@@||events.gfe.nvidia.com^$important
+
 # Optimizely
-@@||cdn.optimizely.com^$important
+@@||cdn.com^$important
 @@||cdn2.optimizely.com^$important
 @@||cdn3.optimizely.com^$important
 
@@ -295,6 +442,9 @@
 @@||i.otto.de^$important
 @@||pxc.otto.de^$important
 @@||tp.otto.de^$important
+
+# Payback
+@@||www.payback.de^$important
 
 # PayPal
 @@||c.paypal.com^$important
@@ -307,6 +457,34 @@
 
 # Pinterest
 @@||pinterest.com^$important
+
+# Placehold.it (Placehold.it, Image placeholders often used during web page loading.)
+@@||placehold.it^$important
+@@||placeholdit.imgix.net^$important
+
+# Plex
+@@||app.plex.tv^$important
+@@||cpms.spop10.ams.plex.bz^$important
+@@||cpms35.spop10.ams.plex.bz^$important
+@@||dashboard.plex.tv^$important
+@@||meta-db-worker02.pop.ric.plex.bz^$important
+@@||meta.plex.bz^$important
+@@||meta.plex.tv^$important
+@@||my.plexapp.com^$important
+@@||nine.plugins.plexapp.com^$important
+@@||node.plexapp.com^$important
+@@||o1.email.plex.tv^$important
+@@||o2.sg0.plex.tv^$important
+@@||proxy.plex.bz^$important
+@@||proxy.plex.tv^$important
+@@||proxy02.pop.ord.plex.bz^$important
+@@||pubsub.plex.bz^$important
+@@||pubsub.plex.tv^$important
+@@||staging.plex.tv^$important
+@@||status.plex.tv^$important
+@@||tvdb2.plex.tv^$important
+@@||tvthemes.plexapp.com^$important
+@@||www.plex.tv^$important
 
 # Podcast Hosting
 @@||anchor.fm^$important
@@ -322,6 +500,29 @@
 # Reddit
 @@||reddit.com^$important
 
+# Samsung
+@@||cdn.samsungcloudsolution.com^$important
+@@||time.samsungcloudsolution.com^$important
+
+# ScienceDirect
+@@||id.elsevier.com^$important
+
+# Shopify
+@@||s.shopify.com^$important
+
+# Shoop
+@@||www.shoop.de^$important
+
+# SkyGo
+@@||assets.adobedtm.com^$important
+
+# Sonarr
+@@||apt.sonarr.tv^$important
+@@||download.sonarr.tv^$important
+@@||forums.sonarr.tv^$important
+@@||services.sonarr.tv^$important
+@@||skyhook.sonarr.tv^$important
+
 # Sonos
 @@||msmetrics.ws.sonos.com^$important
 
@@ -329,6 +530,11 @@
 @@||feeds.soundcloud.com^$important
 @@||sndcdn.com^$important
 @@||soundcloud.com^$important
+
+# Spiegel.de Adblock Detector
+@@||sourcepoint.mgr.consensu.org^$important
+@@||message331-fra.sp-prod.net^$important
+@@||spiegel-de.spiegel.de^$important
 
 # Spotify
 @@||ap.spotify.com^$important
@@ -350,8 +556,22 @@
 @@||spotilocal.com^$important
 @@||upgrade.scdn.com^$important
 
+# Surveymonkey
+@@||secure.surveymonkey.com^$important
+
+# Symantec
+@@||sa.symcb.com^$important
+
 # Tasker
 @@||taskernet.com^$important
+
+# Tawk (Live chat platform for websites to chat with the website owner. Blocking this domain will block chat widget.)
+@@||tawk.to^$important
+
+# TED
+@@||app-api.ted.com^$important
+@@||hls.ted.com^$important
+@@||tedcdn.com^$important
 
 # Toniebox
 @@||cdn-global.configcat.com^$important
@@ -373,6 +593,15 @@
 @@||twitter.com^$important
 @@||twitter.map.fastly.net^$important
 @@||twttr.com^$important
+
+# (Video delivery systems, popular in entertainment and news sites.)
+@@||ssl.p.jwpcdn.com^$important
+
+# Vidible (Video delivery systems, popular in entertainment and news sites.)
+@@||cdn.vidible.tv^$important
+@@||delivery.vidible.tv^$important
+@@||img.vidible.tv^$important
+@@||videos.vidible.tv^$important
 
 # Vinted
 @@||images.vinted.net^$important
@@ -420,6 +649,9 @@
 @@||t4.market.xiaomi.com^$important
 @@||t5.market.xiaomi.com^$important
 @@||zhuti.xiaomi.com^$important
+
+# xkcd.com
+@@||imgs.xkcd.com^$important
 
 # Youtube
 @@||i.ytimg.com^$important
