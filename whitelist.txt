@@ -1,4 +1,6 @@
 ! Whitelist - Domains
+# Syntax description: https://adguard.com/kb/de/general/ad-filtering/create-own-filters/
+
 # Adobe
 @@||fpdownload.adobe.com^$important
 @@||entitlement.auth.adobe.com^$important
@@ -517,6 +519,9 @@
 # Samsung
 @@||cdn.samsungcloudsolution.com^$important
 @@||time.samsungcloudsolution.com^$important
+
+# Saturn
+@@||service-my.saturn.de^$important
 
 # ScienceDirect
 @@||id.elsevier.com^$important
